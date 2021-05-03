@@ -4,6 +4,8 @@
 <script src="https://code.highcharts.com/highcharts.js"></script>
 <script src="https://code.highcharts.com/modules/data.js"></script>
 <script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/stock/indicators/indicators.js"></script>
+
 <script>
     document.addEventListener('DOMContentLoaded', function () {
         const chart = Highcharts.chart('container', {
@@ -47,6 +49,7 @@
                 csvURL: 'https://raw.githubusercontent.com/guillaumemoreau/inbox/main/inbox.csv',
                 enablePolling: false
             }
+ 
         });
     });
 </script>
